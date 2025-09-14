@@ -1,2 +1,4 @@
-# goit-markup-hw-02
-My 2nd homework in GoIT HTML base +CSS
+# goit-markup-hw-01
+
+My homeworks in GoIT HTML+CSS 2.1 course
+2025-09-14 HW1 - Module 1 "HTML Basics"
