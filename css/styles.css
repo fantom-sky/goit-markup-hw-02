@@ -21,7 +21,7 @@ ul {
 .logo-style {
     font-family: "Raleway", sans-serif;
     /*font-weight: 700;*/
-    color: inherit;
+    color: currentColor;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -46,12 +46,12 @@ ul {
     color: #404bbf;
     text-decoration: underline;
 }
-.contacts-data .contacts-link {
+.address-menu .contacts-link {
     color: currentColor;
     font-style: normal;
 }
-.contacts-data .contacts-link:hover,
-.contacts-data .contacts-link:focus {
+.address-menu .contacts-link:hover,
+.address-menu .contacts-link:focus {
     color: #404BBF;
 }
 
