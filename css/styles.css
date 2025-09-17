@@ -15,21 +15,33 @@ ul {
     list-style-type: none;
 }
 
+.section-text-in-p {
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+}
+
 .nav-menu {
     color: #2e2f42;
 }
+
 .logo-style {
     font-family: "Raleway", sans-serif;
-    /*font-weight: 700;*/
-    color: currentColor;
+    font-weight: 700;
+    color: #4d5ae5;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.logo-color-first {
-    color: #4d5ae5;
+.logo-color-studio-header {
+    color: #2e2f42;
+}
+
+.logo-color-studio-footer {
+    color: #f4f4fd;
 }
 
 .nav-menu .nav-menu-link {    
@@ -46,69 +58,80 @@ ul {
     color: #404bbf;
     text-decoration: underline;
 }
-.address-menu .contacts-link {
-    color: currentColor;
+
+.address-menu {
     font-style: normal;
 }
+
+.address-menu .contacts-link {
+    color: currentColor;
+}
+
 .address-menu .contacts-link:hover,
 .address-menu .contacts-link:focus {
     color: #404BBF;
 }
 
-.main-page-title {
+.main-section {
+    background-color: #2e2f42;
+}
+
+.main-section-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: inherit;
     color: #fff;
-    background-color: #2e2f42;
 }
 
-.main-page-btn {
+.main-section-btn {
     cursor: pointer;
-    border: none;
     font-family: inherit;
     color: #fff;
     font-weight: 500;
     font-size: inherit;
     line-height: inherit;
     letter-spacing: 0.04em;
-    width: 169px;
-    height: 56px;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
 }
 
-.main-page-btn:hover {
-    background: #404bbf;
+.main-section-btn:hover,
+.main-section-btn:focus {
+    background-color: #404bbf;
 }
 
 .header-two {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: inherit;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .header-three {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: inherit;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .section-our-team {
     background-color: #f4f4fd;
 }
 
-.team-card-list li h3 {
-    text-align: center;
+.team-card-list .team-card-style {
+    background-color: #fff;
 }
-.team-card-list li p {
-    text-align: center;
+
+.footer-style {
+    background-color: #2e2f42;
 }
 
 .footer-text {
     color: #f4f4fd;
-    background-color: #2e2f42;
 }
